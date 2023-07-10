@@ -7,7 +7,7 @@ import com.github.hossain2024.intellijtestplugin.MyBundle
 import java.util.*
 
 @Service(Service.Level.PROJECT)
-class MyProjectService(project: Project) {
+class MyKiotaProjectService(project: Project) {
 
     init {
         thisLogger().info(MyBundle.message("projectService", project.name))

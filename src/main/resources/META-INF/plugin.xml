@@ -9,7 +9,8 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.hossain2024.intellijtestplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+      <!--  <toolWindow factoryClass="com.github.hossain2024.intellijtestplugin.toolWindow.MyToolWindowFactory" id="MyToolWindowFactory"/> -->
+        <toolWindow factoryClass="com.github.hossain2024.intellijtestplugin.toolWindow.MyToolWindowFactory" id="MyToolWindowFactory"/>
     </extensions>
 
     <applicationListeners>
